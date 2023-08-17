@@ -1,0 +1,101 @@
+
+
+/* Original styles for .flex2 and .header remain unchanged */
+
+/* ... your existing CSS code ... */
+
+/* Media query for small screens */
+@media screen and (max-width: 600px) {
+    .flex2 {
+      width: auto; /* Adjust to make it full width */
+      height: 1000px;
+    }
+    
+    .header {
+      height: 60px; /* Smaller header height for small screens */
+      border: 1px solid #343a40; /* Adjust border styles */
+    }
+  
+    .flex {
+      display: block; /* Change to block display for stacking content */
+      width: 100%; /* Make it full width */
+      padding-top: 10px; /* Adjust padding */
+    }
+  
+    .left {
+      width: 100%; /* Make it full width */
+      height: auto; /* Adjust height */
+      padding: 10px; /* Adjust padding */
+    }
+  
+    .small-containers {
+      width: 100%; /* Make it full width */
+      height: auto; /* Adjust height */
+      padding: 10px; /* Adjust padding */
+      font-size: 18px; /* Adjust font size */
+    }
+  
+    .paragrph {
+      font-size: 18px; /* Adjust font size */
+    }
+  
+    /* Adjust other styles as needed for better responsiveness */
+  
+    .right {
+      width: 100%; /* Make it full width */
+    }
+  
+    .right-box {
+      height: auto; /* Adjust height */
+      padding: 10px; /* Adjust padding */
+    }
+  
+    /* Adjust other styles as needed for better responsiveness */
+  }
+  
+
+
+  @media screen and (max-width: 400px) {
+    .flex2 {
+      width: auto; /* Adjust to make it full width */
+    }
+  
+    .header {
+      height: 40px; /* Further reduce header height */
+    }
+  
+    .flex {
+      display: block; /* Change to block display for stacking content */
+      width: 100%; /* Make it full width */
+      padding-top: 10px; /* Adjust padding */
+    }
+  
+    .left,
+    .small-containers,
+    .right,
+    .right-box {
+      width: 100%; /* Make these elements full width */
+    }
+  
+    .left {
+      padding: 5px; /* Reduce padding */
+    }
+  
+    .small-containers {
+      padding: 5px; /* Reduce padding */
+      font-size: 16px; /* Adjust font size */
+    }
+  
+    .paragrph {
+      font-size: 16px; /* Adjust font size */
+    }
+  
+    /* Adjust other styles as needed for better responsiveness */
+  
+    .center-top,
+    .center-top-right {
+      font-size: 16px; /* Adjust font size */
+    }
+  
+    /* Adjust other styles as needed for better responsiveness */
+  }
